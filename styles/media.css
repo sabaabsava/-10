@@ -1,0 +1,38 @@
+@media screen and (max-width: 840px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+  ul {
+    display: none;
+  }
+
+  .container>.leftdiv {
+    max-width: 270px;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .leftdiv {
+    margin: 0px 0px 60px 0px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  section > .banner_text_1,.banner_text_2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .burgermenu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    flex-direction: column;
+  }
+}
