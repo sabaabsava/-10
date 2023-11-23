@@ -7,7 +7,7 @@
     display: none;
   }
 
-  .container>.leftdiv {
+  .container > .leftdiv {
     max-width: 270px;
     padding: 20px;
     justify-content: center;
@@ -19,7 +19,8 @@
 }
 
 @media screen and (max-width: 624px) {
-  section > .banner_text_1,.banner_text_2 {
+  section > .banner_text_1,
+  .banner_text_2 {
     display: flex;
     justify-content: center;
   }
